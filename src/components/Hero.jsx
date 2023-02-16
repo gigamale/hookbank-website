@@ -12,7 +12,7 @@ const Hero = () => {
         <p className={`${styles.paragraph} ml-2`} >
         <span className='text-white'>20%</span>     Discount for {" "}
     
-        <span className='text-white'>1 Month</span> account
+        <span className='text-white'>2 Month</span> account
 
         </p>
       </div>
