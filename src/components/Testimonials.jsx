@@ -9,9 +9,13 @@ const Testimonials = () => (
 
    
    
-   <div className='w-full flex  justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]'>
-    <h1 className={`${styles.heading2} sm:mb-16 `}>What people are <br className='sm:block hidden'/> saying about us</h1>
-    <p className={` ${styles.paragraph} text-left w-full `}>Everything you need to accept card payments <br className='md:block hidden'/> and grow your business anywhere on the planet.</p>
+   <div className='flex flex-col justify-center items-center mb-10 '>
+    <h1 style={{textAlign: 'center'}} className={`${styles.heading2} sm:mb-1  `}>
+      
+    Why not scroll through  
+
+       <br className='sm:block hidden'/> our work</h1>
+       <button style={{fontSize: '15px', fontWeight: '550'}} className='mt-7 w-[170px] h-[64px] bg-blue-gradient rounded-[12px]'>Previous Projects</button>
    </div>
    
 

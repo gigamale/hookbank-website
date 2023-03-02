@@ -5,15 +5,25 @@ const CardDeal = () => (
        
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h4 className={styles.heading2}>Find a better card deal <br/> in few easy steps.1</h4>
+        <h4 className={styles.heading2}>We are a copywriting <br/>Marketing agency</h4>
         <p className=' mt-5 font-poppins font-normal text-[18px] text-white leading-[32px]'>
-        Arcu tortor, purus in mattis at sed integer faucibus.<br className='md:block hidden'/> Aliquet quis aliquet eget mauris tortor.ç Aliquet <br className='md:block hidden'/> ultrices ac, ametau.
+        We craft compelling messages which make an impact.
+        
+        <br className='md:block hidden'/>
+        
+        Our copywriting and marketing services help sell your <br className='md:block hidden'/>products or services and build your business’s authority<br className='md:block hidden'/>  with words. It’s what we do.
+
+
+        
+        
+        
+        
         </p>
         <button className='mt-7 w-[170px] h-[64px] bg-blue-gradient rounded-[12px]'>Get Started</button>
       </div>
 
-      <div className={layout.sectionImg}>
-        <img src={card}/>
+      <div style={{width:'400px', marginTop: '12px'}} >
+        <img src={card} />
       </div>
     </section>
     

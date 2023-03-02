@@ -19,9 +19,9 @@ const Hero = () => {
 
       <div className='flex flex-row justify-between items-center w-full'>
         <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px]'>
-          The Next <br className='sm:block hidden'/> 
-          <span className='text-gradient'>Generation</span> <br/>
-          Payment Method
+        Empathy <br className='sm:block hidden'/> 
+          <span className='text-gradient'>Analysis</span> <br/>
+          Action.
         </h1>
         <div className='ss:flex hidden md:mr-4'>
           <GetStarted/>
@@ -31,9 +31,7 @@ const Hero = () => {
 
       <p className={`${styles.paragraph} max-w-[420px]
       mt-5 `}>
-       Our team of experts uses a methodology to identify the credit cards
-          most likely to fit your needs. We examine annual percentage rates,
-          annual fees.
+       We're here to get you a pristine copy that attracts the right customers, increases sales, and creates irresistible brands.
       </p>
 
     </div>

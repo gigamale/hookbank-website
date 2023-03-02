@@ -1,14 +1,15 @@
 import React from 'react'
 import styles,{layout} from '../style'
 import { logo } from '../assets' // 124 32
-import { footerLinks } from '../constants'
+import { footerLinks  } from '../constants'
+import { socialMedia } from '../constants'
 const Footer = () => {
   return (
     <section className={` ${styles.flexCenter} ${styles.paddingY} flex-col md:border-b-4 md:border-indigo-500`}>
       <div className={`${styles.flexStart} flex-col md:flex-row flex-col w-full`}>
       <div className={`flex-[1] flex flex-col justify-start mr-10`}>
         <img src={logo} className='h-[72.14] w-[266px]  1'/>
-        <p className={` ${styles.paragraph} mt-4`}>A new way to make the payments <br/> easy, reliable and secure.</p>
+        <p className={` ${styles.paragraph} mt-4`}>So don't let your message get lost <br/>in the noise & connect with us today.</p>
       </div>
 
       
