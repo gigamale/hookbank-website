@@ -15,7 +15,10 @@ const Testimonials = () => (
     Why not scroll through  
 
        <br className='sm:block hidden'/> our work</h1>
-       <button style={{fontSize: '15px', fontWeight: '550'}} className='mt-7 w-[170px] h-[64px] bg-blue-gradient rounded-[12px]'>Previous Projects</button>
+       <button style={{fontSize: '15px', fontWeight: '550'}} className='mt-7 w-[170px] h-[64px] bg-blue-gradient rounded-[12px]'>
+
+        <a href='https://ourworkprofolio.netlify.app/'>Previous Projects</a>
+       </button>
    </div>
    
 
