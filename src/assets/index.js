@@ -4,7 +4,7 @@ import binance from "./binance.png";
 import card from "./re.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
-import logo from "./testlogo1.png";
+import logo from "./finallogo1.jpg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
