@@ -1,5 +1,6 @@
 export {default as Billing} from "./Billing"
 export {default as Business} from "./Business"
+export {default as Calendy} from "./Calendy"
 
 export {default as Button} from "./Button"
 
@@ -15,6 +16,8 @@ export {default as FeedBackCard} from "./FeedBackCard"
 export {default as Footer} from "./Footer"
 
 export {default as GetStarted} from "./GetStarted"
+
+
 
 export {default as Hero} from "./Hero"
 
