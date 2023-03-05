@@ -13,14 +13,17 @@ function CalendlyButton() {
 
   return (
     <div className='flex flex-col justify-center items-center mb-10 overflow-hidden '  >
-    <h1 style={{textAlign: 'center'}} className={`${styles.heading2} sm:mb-1  `}>
-      
-   Schedule a call with us
+  <h1 className='flex-1 text-center font-poppins font-semibold ss:text-[62px] text-[42px] text-white ss:leading-[100px]'>
 
-       <br className='sm:block hidden'/> today</h1>
+  <span className='text-gradient'>Schedule</span> a call with us
+   <br/> today 
+  </h1>
+
+
+
 
     
-     <div className="calendly-inline-widget" data-url="https://calendly.com/fruitboxalternative/30min" style={{height:'89vh',width:'100%',marginTop:'16px',overflow:'clip'}}></div>
+     <div className="calendly-inline-widget" data-url="https://calendly.com/fruitboxalternative/30min" style={{height:'89vh',width:'100%',marginTop:'8px',overflow:'clip'}}></div>
 
     
        

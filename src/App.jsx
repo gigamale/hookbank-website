@@ -1,45 +1,43 @@
-import React from 'react'
+import React from 'react';
 import styles from './style';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Navbar, Hero, Business, Calendy, CardDeal, Testimonials, CTA, Footer, CopyRight } from './components';
 
-import { Navbar, Hero, Billing,Button,CardDeal,Clients,CTA,FeedBackCard,Footer,GetStarted,Business, Calendy
-,Stats,Testimonials,CopyRight
-} from './components';
-
-const App = () => 
-   (
-    <div className='bg-primary w-full overflow-hidden'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-        <Navbar></Navbar>
+const App = () => (
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<div className='bg-primary w-full overflow-hidden'>
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Navbar />
+          </div>
         </div>
-      </div>
 
-
-      <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Hero></Hero>
+        <div className={`bg-primary ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Hero />
+          </div>
         </div>
-      </div>
 
-
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-        
-         <Business></Business>
-         <Calendy/>
-         <CardDeal></CardDeal>
-         <Testimonials></Testimonials>
-
-         <CTA></CTA>   
-         <Footer></Footer>
-         <CopyRight/>
+        <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Business />
+            <Calendy />
+            <CardDeal />
+            <Testimonials />
+            <CTA />
+            <Footer />
+            <CopyRight />
+          </div>
         </div>
-      </div>
-   
-      </div>
-   
-   
-  );
+      </div>} />
 
+      <Route path='/calendy' element={
 
-export default App
+        <div style={{backgroundColor:'black', overflow:'hidden'}}><Calendy/> </div>
+      }></Route>
+    </Routes>
+  </BrowserRouter>
+);
+
+export default App;

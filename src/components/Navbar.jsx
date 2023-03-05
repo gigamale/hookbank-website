@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import {close, logo, menu} from "../assets"
 import {navLinks} from "../constants"
+import { Link } from 'react-router-dom'
 const Navbar = () => {
 
   const [toggle,setToggle] = useState(false)
@@ -11,9 +12,11 @@ const Navbar = () => {
 
       <ul className={`list-none sm:flex hidden justify-end items-center flex-1`}>
         {navLinks.map((nav,index) => (
-          <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${index === navLinks.length -1 ? 'mr-0' : 'mr-10'}  `}>
+          <Link to={`/${nav.id}`}>
+          <li key={nav.id}  className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${index === navLinks.length -1 ? 'mr-0' : 'mr-10'}  `}>
             <a>{nav.title}</a>
           </li>
+          </Link>
         ))}
       </ul>
 
@@ -29,9 +32,11 @@ const Navbar = () => {
 
        <ul className={`list-none flex flex-col  justify-end items-center flex-1`}>
         {navLinks.map((nav,index) => (
+          <Link to={`/${nav.id}`}>
           <li key={nav.id} className={`font-poppins font-normal  cursor-pointer text-[16px] text-white ${index === navLinks.length -1 ? 'mb-0' : 'mb-4'}   `}>
             <a>{nav.title}</a>
           </li>
+          </Link>
         ))}
       </ul>
 
