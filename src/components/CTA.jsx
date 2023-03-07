@@ -11,7 +11,7 @@ const CTA = () =>  (
       </div>
 
       <button className={` ${styles.flexCenter}  sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-        <Link to="https://wa.me/8849493915">
+        <Link to="https://wa.me/918849493915">
         <Button className='rounded-[20px]'/>
         </Link>
       </button>
