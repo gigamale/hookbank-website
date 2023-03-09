@@ -12,7 +12,7 @@ const CardDeal = () => (
         
         <br className='md:block hidden'/>
         
-        Our copywriting and marketing services help sell your <br className='md:block hidden'/>products or services and build your business’s authority<br className='md:block hidden'/>  with words. It’s what we do.
+        Our <span className='text-gradient'>copywriting</span> and marketing services help sell your <br className='md:block hidden'/>products or services and build your business’s authority<br className='md:block hidden'/>  with words. It’s what we do.
 
 
         

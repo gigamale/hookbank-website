@@ -21,7 +21,7 @@
   
   /* Apply the animation to the image */
   img {
-    animation: slideIn 1s ease-out;
+    animation: slideIn 2.4s ease-out;
   }
   
   /* Make sure the animation only runs once when the element is in view */
