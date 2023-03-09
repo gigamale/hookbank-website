@@ -6,13 +6,13 @@ const CardDeal = () => (
        
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h4 className={styles.heading2}>We are a copywriting <br/>Marketing agency</h4>
+        <h4 className={styles.heading2}>We are a <span className='text-gradient'>copywriting</span> <br/>Marketing agency</h4>
         <p className=' mt-5 font-poppins font-normal text-[18px] text-white leading-[32px]'>
         We craft compelling messages which make an impact.
         
         <br className='md:block hidden'/>
         
-        Our <span className='text-gradient'>copywriting</span> and marketing services help sell your <br className='md:block hidden'/>products or services and build your business’s authority<br className='md:block hidden'/>  with words. It’s what we do.
+        Our copywriting and marketing services help sell your <br className='md:block hidden'/>products or services and build your business’s authority<br className='md:block hidden'/>  with words. It’s what we do.
 
 
         
