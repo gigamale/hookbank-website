@@ -1,6 +1,7 @@
 import React from 'react'
 import { card } from '../assets'
 import styles,{layout} from '../style'
+import "./Card.css"
 const CardDeal = () => (
        
     <section className={layout.section}>
@@ -22,9 +23,10 @@ const CardDeal = () => (
         <button className='mt-7 w-[170px] h-[64px] bg-blue-gradient rounded-[12px]'>Get Started</button>
       </div>
 
-      <div style={{width:'400px', marginTop: '12px'}} >
-        <img src={card} />
-      </div>
+      <div className="card-container">
+  <img src={card} className="card-img" />
+</div>
+
     </section>
     
      

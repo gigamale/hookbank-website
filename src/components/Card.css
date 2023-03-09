@@ -1,0 +1,31 @@
+.card-img {
+    max-width: 400px;
+    margin-top: 12px;
+    animation: slideIn 1s ease-out;
+  }
+  
+  .card-img:not(:in-viewport) {
+    animation-play-state: paused;
+  }
+/* Define the keyframes for the animation */
+@keyframes slideIn {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to the image */
+  img {
+    animation: slideIn 1s ease-out;
+  }
+  
+  /* Make sure the animation only runs once when the element is in view */
+  img:not(:in-viewport) {
+    animation-play-state: paused;
+  }
+    
