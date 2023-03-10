@@ -91,65 +91,71 @@ stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "we specialize in..",
     links: [
       {
-        name: "Content",
+        name: "EMAIL & DIRECT MAIL WRITING",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "VIDEO SALES LETTERS ",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "SALES PAGES",
+        link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "LANDING PAGE & WEBSITE CONTENT",
+        link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: " SOCIAL MEDIA MARKETING ASSISTANCE",
+        link: "https://www.hoobank.com/how-it-works/",
       },
+      {
+        name: "BLOG ARTICLES",
+        link: "https://www.hoobank.com/how-it-works/",
+      },
+      {
+        name: "DIGITAL ADVERTISEMENTS COPY",
+        link: "https://www.hoobank.com/how-it-works/",
+      },
+      
     ],
   },
   {
-    title: "Community",
+    title: "Connect",
     links: [
       {
-        name: "Help Center",
+        name: "Instagram",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Facebook",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Linkedin",
         link: "https://www.hoobank.com/suggestions/",
       },
       {
-        name: "Blog",
+        name: "Twitter",
         link: "https://www.hoobank.com/blog/",
       },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
+      
     ],
   },
   {
-    title: "Partner",
+    title: "Get in touch",
     links: [
       {
-        name: "Our Partner",
+        name: "MON-SAT",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "my@fruitboxmedia.com",
+        link: "https://www.my@fruitboxmedia.com",
       },
     ],
   },

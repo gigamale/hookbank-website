@@ -3,24 +3,26 @@ import styles,{layout} from '../style'
 import { logo } from '../assets' // 124 32
 import { footerLinks  } from '../constants'
 import { socialMedia } from '../constants'
+
+
 const Footer = () => {
   return (
     <section className={` ${styles.flexCenter} ${styles.paddingY} flex-col md:border-b-4 md:border-indigo-500`}>
       <div className={`${styles.flexStart} flex-col md:flex-row flex-col w-full`}>
       <div className={`flex-[1] flex flex-col justify-start mr-10`}>
         <img src={logo} className='h-[72.14] w-[266px]  1'/>
-        <p className={` ${styles.paragraph} mt-4`}>So don't let your message get lost <br/>in the noise & connect with us today.</p>
+         <p className={` font-poppins font-400 text-white text-[20px] leading-[30.8px] mt-4`} style={{color:'white'}}>So don't let your message get lost <br/>in the noise  <span style={{fontWeight:'bold',fontSize:'21px'}} className='text-gradient'>connect with us today.</span></p>
       </div>
 
       
       <div className='flex-[1.5] w-full flex flex-row flex-wrap  justify-between md:mt-0 mt-10'  >
       {footerLinks.map((footerlink) => (
         <div className='flex flex-col min-w-[150px] ss:my-0 my-4'>
-          <h2 className='text-[18px] text-white font-normal font-poppins leading-[27xp]'>{footerlink.title}</h2>
+         <span className='text-gradient'><h2 className='text-[26px] text-white font-semibold font-poppins leading-[27xp]'>{footerlink.title}</h2></span> 
           
           <ul className='list-none mt-4'>
             {footerlink.links.map((link,index) => (
-              <li key={link.name} className={`text-[16px] text-dimWhite font-normal font-poppins leading-[24px] cursor-pointer ${index === footerlink.links.length -1 ? "mb-4" : "mb-0"}`}>{link.name}</li>
+              <li key={link.name} className={`text-[16px] mt-2 text-white font-normal font-poppins leading-[24px] cursor-pointer  ${index === footerlink.links.length -1 ? "mb-4" : "mb-0"}`}>{link.name}</li>
             ))} 
           </ul>
           

@@ -1,6 +1,7 @@
 import React from 'react'
 import { card } from '../assets'
 import styles,{layout} from '../style'
+import { Link } from 'react-router-dom'
 import "./Card.css"
 const CardDeal = () => (
        
@@ -20,7 +21,9 @@ const CardDeal = () => (
         
         
         </p>
-        <button className='mt-7 w-[170px] h-[64px] bg-blue-gradient rounded-[12px]'>Get Started</button>
+        <Link to="https://wa.me/918849493915">
+        <button className='mt-7 w-[170px] h-[64px] text-black bg-blue-gradient rounded-[19px] font-semibold'>Contact Us</button>
+      </Link>
       </div>
 
       <div className="card-container">
