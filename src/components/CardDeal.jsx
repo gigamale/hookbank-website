@@ -7,8 +7,8 @@ const CardDeal = () => (
        
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h4 className={styles.heading2}>We are a <span className='text-gradient'>copywriting</span> <br/>Marketing agency</h4>
-        <p className=' mt-5 font-poppins font-normal text-[18px] text-white leading-[32px]'>
+        <h4 className={`font-poppins font-semibold xs:text-[45px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full`}>We are a <span className='text-gradient'>copywriting</span> <br/>Marketing agency</h4>
+        <p className=' mt-5 font-poppins font-800 text-[20px] text-white leading-[35px]'>
         We do this by providing agile, scalable content services that     <br className='md:block hidden'/> 
         you can access on demand. So, whether it’s capturing attention,      <br className='md:block hidden'/>
         inspiring action, building loyalty or igniting growth, we can help      <br className='md:block hidden'/>
@@ -20,13 +20,13 @@ const CardDeal = () => (
         
         
         
-        </p>
+        </p >
         <Link to="https://wa.me/918849493915">
-        <button className='mt-7 w-[170px] h-[64px] text-black bg-blue-gradient rounded-[19px] font-semibold'>Contact Us</button>
+        <button className=' md:mb-12 mt-7 w-[170px] h-[64px] text-black bg-blue-gradient rounded-[19px] font-semibold'>Contact Us</button>
       </Link>
       </div>
 
-      <div className="card-container md:mt-12">
+      <div className="card-container md:mr-15">
       <br className='md:block hidden'/>
   <img src={card} className="card-img" />
 </div>

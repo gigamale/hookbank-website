@@ -11,7 +11,7 @@ const Footer = () => {
       <div className={`${styles.flexStart} flex-col md:flex-row flex-col w-full`}>
       <div className={`flex-[1] flex flex-col justify-start mr-10`}>
         <img src={logo} className='h-[72.14] w-[266px]  1'/>
-         <p className={` font-poppins font-400 text-white text-[20px] leading-[30.8px] mt-4`} style={{color:'white'}}>So don't let your message get lost <br/>in the noise  <span style={{fontWeight:'bold',fontSize:'21px'}} className='text-gradient'>connect with us today.</span></p>
+         <p className={` font-poppins font-semibold text-white text-[25px] leading-[30.8px] mt-7`} style={{color:'white'}}>So don't let your message get lost <br/>in the noise  <span style={{fontWeight:'bold',fontSize:'25px'}} className='text-gradient'>connect with us today.</span></p>
       </div>
 
       

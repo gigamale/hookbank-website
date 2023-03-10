@@ -91,7 +91,7 @@ stats = [
 
 export const footerLinks = [
   {
-    title: "we specialize in..",
+    title: "We specialize in..",
     links: [
       {
         name: "EMAIL & DIRECT MAIL WRITING",
@@ -155,6 +155,10 @@ export const footerLinks = [
       },
       {
         name: "my@fruitboxmedia.com",
+        link: "https://www.my@fruitboxmedia.com",
+      },
+      {
+        name: "kaukawalamurtaza4@gmail.com",
         link: "https://www.my@fruitboxmedia.com",
       },
     ],

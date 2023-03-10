@@ -22,8 +22,9 @@ const Business = () => {
   return (
     <div id='features' className={layout.section}>
  <div className={layout.sectionInfo}>
-  <h2 className={styles.heading2}  >We solve the problems of<br className='sm:block hidden'/>Entrepreneurs</h2>
-  <p className={`${styles.paragraph} max-w-[470px] mt-5`}>The persuasive, relevant,& action taking words  to make you stand out from your competitors, to connect with your target audience & to actually sell it.</p>
+  <h2 className={`font-poppins font-semibold xs:text-[30px] text-[40px] text-white xs:leading-[55.8px] leading-[66.8px] w-full mt-5`}  >The persuasive, relevant,& action taking words  to make you stand out from your competitors, to connect with your target audience & to actually sell it.<br className='sm:block hidden'/></h2>
+  <p className={`${styles.paragraph} max-w-[470px] mt-5`}>We're here to get you a pristine copy that attracts the right customers, increases sales, and creates irresistible brands.!!
+</p>
 
    <Button styles="mt-10"/>
  </div>
