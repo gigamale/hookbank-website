@@ -9,11 +9,11 @@ const CardDeal = () => (
       <div className={layout.sectionInfo}>
         <h4 className={styles.heading2}>We are a <span className='text-gradient'>copywriting</span> <br/>Marketing agency</h4>
         <p className=' mt-5 font-poppins font-normal text-[18px] text-white leading-[32px]'>
-        We craft compelling messages which make an impact.
-        
-        <br className='md:block hidden'/>
-        
-        Our copywriting and marketing services help sell your <br className='md:block hidden'/>products or services and build your business’s authority<br className='md:block hidden'/>  with words. It’s what we do.
+        We do this by providing agile, scalable content services that     <br className='md:block hidden'/> 
+        you can access on demand. So, whether it’s capturing attention,      <br className='md:block hidden'/>
+        inspiring action, building loyalty or igniting growth, we can help      <br className='md:block hidden'/>
+         you win the things that matter. Our copywriting and marketing      <br className='md:block hidden'/>
+         services help sell your products or services and build your      <br className='md:block hidden'/> business’s      authority with words. It’s what we do.
 
 
         
@@ -26,7 +26,8 @@ const CardDeal = () => (
       </Link>
       </div>
 
-      <div className="card-container">
+      <div className="card-container md:mt-12">
+      <br className='md:block hidden'/>
   <img src={card} className="card-img" />
 </div>
 

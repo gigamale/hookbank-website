@@ -17,12 +17,12 @@ const Footer = () => {
       
       <div className='flex-[1.5] w-full flex flex-row flex-wrap  justify-between md:mt-0 mt-10'  >
       {footerLinks.map((footerlink) => (
-        <div className='flex flex-col min-w-[150px] ss:my-0 my-4'>
-         <span className='text-gradient'><h2 className='text-[26px] text-white font-semibold font-poppins leading-[27xp]'>{footerlink.title}</h2></span> 
+        <div className='flex flex-col min-w-[150px] ss:my-0 my-4 '>
+         <span className='text-gradient'><h2 className='text-[28px]   font-semibold font-poppins leading-[29xp]'>{footerlink.title}</h2></span> 
           
           <ul className='list-none mt-4'>
             {footerlink.links.map((link,index) => (
-              <li key={link.name} className={`text-[16px] mt-2 text-white font-normal font-poppins leading-[24px] cursor-pointer  ${index === footerlink.links.length -1 ? "mb-4" : "mb-0"}`}>{link.name}</li>
+              <li key={link.name} className={`text-[16px] mt-2  text-white font-normal font-poppins leading-[24px] cursor-pointer hover:text-[19px] hover:text-bold  ${index === footerlink.links.length -1 ? "mb-4" : "mb-0"}`}>{link.name}</li>
             ))} 
           </ul>
           

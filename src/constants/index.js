@@ -114,7 +114,7 @@ export const footerLinks = [
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "BLOG ARTICLES",
+        name: "CONTENT MARKETING, PLANNING & STRAGEY",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
