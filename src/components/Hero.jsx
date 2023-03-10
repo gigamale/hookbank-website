@@ -20,7 +20,7 @@ const Hero = () => {
       </div>
  
 
-      <p className={`font-poppins font-semibold xs:text-[29px] text-[29px] text-white xs:leading-[45px] leading-[5.8px] w-full 
+      <p className={`font-poppins font-semibold xs:text-[29px] text-[29px] text-white xs:leading-[45px] leading-[45.8px] w-full 
       mt-8 `}>
      We help solve the problems of   <span className='text-gradient'>Entrepreneurs, Coaches & Consultants </span> via effectual & impactful Branding, Marketing & Copywriting.!!
       </p>

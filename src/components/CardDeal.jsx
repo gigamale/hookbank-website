@@ -22,7 +22,7 @@ const CardDeal = () => (
         
         </p >
         <Link to="https://wa.me/918849493915">
-        <button className=' md:mb-12 mt-7 w-[170px] h-[64px] text-black bg-blue-gradient rounded-[19px] font-semibold'>Contact Us</button>
+        <button className=' md:mb-12 mt-7 w-[170px] h-[64px] text-black bg-blue-gradient rounded-[19px] font-semibold'>Contact  Us</button>
       </Link>
       </div>
 
