@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "100% Gaurantee",
+    title: "Content Marketing & Content strategy",
     content:
-      "With a 100% guarantee, customers feel like they have nothing to lose and everything to gain.",
+      "By producing high quality content that provides value to their audience coaches Can attract more followers and established themselves experts in the niche & we help them achieve that.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "brand positioning",
+    title: "Marketing assistance & Communications",
     content:
-      "Great brand positioning makes it easy for customers to choose you over the competition.",
+      "By our content Strategy methods & techniques  we have help them improve their marketing and communication Strategies and ultimately attract more clients for their business.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Unlimited Revisions",
+    title: "Positioning and branding",
     content:
-      "With unlimited revision, you can request changes to the tone, style, and messaging of your copy until it meets your expectations.",
+      "By understanding the  marketing & branding principles we position your business in the market not just by generating you more money but by also creating your Brand and building & maintaining business relationships.",
   },
 ];
 
