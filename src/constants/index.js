@@ -2,7 +2,7 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 
 export const navLinks = [
   {
-    id: "Home",
+    id: "",
     title: "Home",
   },
   {
@@ -11,11 +11,11 @@ export const navLinks = [
   },
   {
     id: "Testimony",
-    title: "testimony",
+    title: "Testimony",
   },
   {
-    id: "Clients",
-    title: "Clients",
+    id: "Aboutus",
+    title: "About us",
   },
 ];
 
@@ -25,14 +25,14 @@ export const features = [
     icon: star,
     title: "Content Marketing & Content strategy",
     content:
-      "By producing high quality content that provides value to their audience coaches Can attract more followers and established themselves experts in the niche & we help them achieve that.",
+      "By producing high quality content that provides value to their audience coaches Can attract more followers and established themselves as experts in their niche..",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "Marketing assistance & Communications",
     content:
-      "By our content Strategy methods & techniques  we have help them improve their marketing and communication Strategies and ultimately attract more clients for their business.",
+      "By our content Strategy methods & techniques we have helped them improve their marketing and communication Strategies and ultimately attract more clients for their business..",
   },
   {
     id: "feature-3",
@@ -49,7 +49,7 @@ export const feedback = [
     content:
       "Working with Murtaza has been an absolute game-changer for my high ticket program. His ability to craft compelling copy that speaks directly to my ideal client has been invaluable. Since implementing his suggestions, my email open rates have increased, my social media engagement has gone through the roof, and I've even been able to increase my prices. I couldn't recommend Fruitbox media highly enough.",
     name: " Poojan Jain  ",
-    title: "facebook ad Coach",
+    title: "Facebook Ad Coach",
     img: people01,
   },
   {
@@ -65,7 +65,7 @@ export const feedback = [
     content:
       "I was hesitant to invest in a copywriter for my coaching business, but after seeing the impact that Both Murtaza & Yusuf  had on my colleague's website, I knew I had to give her a try. From our initial consultation to the final draft, They took the time to get to know my business and my target audience, and the writing perfectly captures my brand's voice and message. Thanks to their expertise, I'm now booking more clients than ever before.",
     name: "Lisa shaul",
-    title: "successful Entrepreneur + Coach for women ",
+    title: "Successful Entrepreneur + Coach for women ",
     img: people03,
   },
 ];
@@ -159,6 +159,10 @@ export const footerLinks = [
       },
       {
         name: "kaukawalamurtaza4@gmail.com",
+        link: "https://www.my@fruitboxmedia.com",
+      },
+      {
+        name: "yusufsadhaliwala88@gmail.com",
         link: "https://www.my@fruitboxmedia.com",
       },
     ],

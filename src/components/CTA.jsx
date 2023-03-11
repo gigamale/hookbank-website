@@ -17,13 +17,7 @@ const CTA = () =>  (
       </button>
     </section>
     
-    
-    
 
-
-
-  
-    
   )
 
 

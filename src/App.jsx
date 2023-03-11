@@ -22,7 +22,7 @@ const App = () => (
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <Business />
-            <CardDeal />
+  
             <Calendy />
             <Testimonials />
             <CTA />
@@ -36,6 +36,8 @@ const App = () => (
 
         <div style={{backgroundColor:'black', overflow:'hidden'}}><Calendy/> </div>
       }></Route>
+      <Route path='/Aboutus' element={ <div style={{backgroundColor:'black', overflow:'hidden',padding:'60px'}}><CardDeal/></div>}></Route>
+      <Route path='/Testimony' element={ <div style={{backgroundColor:'black', overflow:'hidden',padding:'60px'}}><Testimonials/></div>}></Route>
     </Routes>
   </BrowserRouter>
 );
