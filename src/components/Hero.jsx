@@ -1,7 +1,7 @@
 import React from 'react'
 import { discount, robot } from '../assets'
 import styles from "../style"
-import GetStarted from "./GetStarted"
+
 const Hero = () => {
   return (
     <section id='home'className={`flex md:flex-row flex-col  ${styles.paddingY} `}>
@@ -15,7 +15,7 @@ const Hero = () => {
           Action.
         </h1>
         <div className='ss:flex hidden md:mr-4'>
-          <GetStarted/>
+        
         </div>
       </div>
  
@@ -28,7 +28,7 @@ const Hero = () => {
     </div>
       
       <div className=''>
-        <img src={robot} alt="billing" className='sm:w-[100%] sm:h-[100%] relative z-[5] md:w-[100%] md:h-[550px] '/>
+        <img src={robot} alt="illustration" className='sm:w-[100%] sm:h-[100%] relative z-[5] md:w-[100%] md:h-[550px] '/>
         {/* gradient start */}
         <div className="relative z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
         <div className="relative z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />

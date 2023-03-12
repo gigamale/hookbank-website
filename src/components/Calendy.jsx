@@ -12,8 +12,8 @@ function CalendlyButton() {
   }, []);
 
   return (
-    <div className='flex flex-col justify-center items-center mb-4 overflow-hidden '  >
-  <h1 className='flex-1 text-center font-poppins font-semibold ss:text-[55px] text-[42px] text-white ss:leading-[100px]'>
+    <div className=' mt-7 flex flex-col justify-center items-center mb-6 overflow-hidden '  >
+  <h1 className='flex-1 text-center font-poppins font-semibold ss:text-[55px] text-[35px] text-white ss:leading-[100px]'>
 
   <span className='text-gradient'>Book</span> a Call with us
    <br/> Today 
@@ -23,7 +23,7 @@ function CalendlyButton() {
 
 
     
-     <div className="calendly-inline-widget" data-url="https://calendly.com/fruitboxmedia/30min" style={{height:'89vh',width:'100%',marginTop:'4px',overflow:'clip'}}></div>
+     <div className="calendly-inline-widget" data-url="https://calendly.com/fruitboxmedia/30min" style={{height:'89vh',width:'100%',marginTop:'6px',overflow:'clip'}}></div>
 
     
        

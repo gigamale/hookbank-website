@@ -7,7 +7,7 @@ const CardDeal = () => (
        
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h4 className={`font-poppins font-semibold xs:text-[45px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full`}>We are a <span className='text-gradient'>copywriting</span> <br/>Marketing agency</h4>
+        <h4 className={`font-poppins font-semibold xs:text-[45px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full`}>We are a <span className='text-gradient'>Copywriting</span> <br/>Marketing Agency</h4>
         <p className=' mt-5 font-poppins font-800 text-[20px] text-white leading-[35px]'>
         We do this by providing agile, scalable content services that     <br className='md:block hidden'/> 
         you can access on demand. So, whether it’s capturing attention,      <br className='md:block hidden'/>
@@ -28,7 +28,7 @@ const CardDeal = () => (
 
       <div className="card-container md:mr-15">
       <br className='md:block hidden'/>
-  <img src={card} className="card-img" />
+  <img src={card} className="card-img"  alt='founders photo'/>
 </div>
 
     </section>
