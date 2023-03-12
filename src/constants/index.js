@@ -2,8 +2,8 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 
 export const navLinks = [
   {
-    id: "",
-    title: "Home",
+    id: "Aboutus",
+    title: "About us",
   },
   {
     id: "Calendy",
@@ -14,9 +14,10 @@ export const navLinks = [
     title: "Testimony",
   },
   {
-    id: "Aboutus",
-    title: "About us",
+    id: "Ourservices",
+    title: "Our services",
   },
+  
 ];
 
 export const features = [
@@ -95,31 +96,31 @@ export const footerLinks = [
     links: [
       {
         name: "EMAIL & DIRECT MAIL WRITING",
-        link: "https://www.hoobank.com/content/",
+        link: "",
       },
       {
         name: "VIDEO SALES LETTERS ",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "",
       },
       {
         name: "SALES PAGES",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "",
       },
       {
         name: "LANDING PAGE & WEBSITE CONTENT",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "",
       },
       {
         name: " SOCIAL MEDIA MARKETING ASSISTANCE",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "",
       },
       {
         name: "CONTENT MARKETING, PLANNING & STRAGEY",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "",
       },
       {
         name: "DIGITAL ADVERTISEMENTS COPY",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "",
       },
       
     ],

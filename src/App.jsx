@@ -38,6 +38,7 @@ const App = () => (
       }></Route>
       <Route path='/Aboutus' element={ <div style={{backgroundColor:'black', overflow:'hidden',padding:'60px'}}><CardDeal/></div>}></Route>
       <Route path='/Testimony' element={ <div style={{backgroundColor:'black', overflow:'hidden',padding:'60px'}}><Testimonials/></div>}></Route>
+      <Route path='/Ourservices' element={ <div style={{backgroundColor:'black', overflow:'hidden',padding:'60px'}}><Footer/><CopyRight/> </div>}></Route>
     </Routes>
   </BrowserRouter>
 );
