@@ -129,19 +129,19 @@ export const footerLinks = [
     links: [
       {
         name: "Instagram",
-        link: "https://www.hoobank.com/help-center/",
+        link: "https://www.instagram.com/fruitboxmedia/",
       },
       {
         name: "Facebook",
-        link: "https://www.hoobank.com/partners/",
+        link: "https://www.facebook.com/fruitboxmedia.marketing//",
       },
       {
         name: "Linkedin",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "https://in.linkedin.com/in/murtaza-kaukawala-22ab161a7",
       },
       {
         name: "Twitter",
-        link: "https://www.hoobank.com/blog/",
+        link: "https://twitter.com/fruitboxmedia?s=11&t=U2jfV492Nj7aQDRKeNNreQ",
       },
       
     ],
@@ -178,7 +178,7 @@ export const socialMedia = [
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/fruitboxmedia.marketing/",
   },
   {
     id: "social-media-3",
@@ -188,7 +188,7 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://in.linkedin.com/in/murtaza-kaukawala-22ab161a7",
   },
 ];
 

@@ -2,7 +2,7 @@ import React from 'react'
 import styles, {layout} from '../style'
 import { features } from '../constants'
 import Button from "./Button"
-
+import { Link } from 'react-router-dom'
 
 const FeatureCard = ({icon, title, content, index}) => (
 <div className={`flex flex-row p-6 rounded-[40px] ${index !== features.length - 1} ? "mb-6 : "mb-0"`}>
@@ -25,8 +25,9 @@ const Business = () => {
   <h2 className={`font-poppins font-semibold xs:text-[30px] text-[40px] text-white xs:leading-[50.8px] leading-[54.8px] w-full mt-5`}  >The persuasive, relevant,& action taking words  to make you stand out from your competitors, to connect with your target audience & to actually sell it.<br className='sm:block hidden'/></h2>
   <p className={`${styles.paragraph} max-w-[470px] mt-5`}>We're here to get you a pristine copy that attracts the right customers,<span className='text-gradient font-semibold'> increases sales, </span>and creates irresistible brands.!!
 </p>
-
+<Link to="https://wa.me/918849493915"> 
    <button className=' mt-6 py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary rounded-[8px] outline-none'>Contact Us</button>
+   </Link>
  </div>
 
  <div className={`${layout.sectionImg} flex-col`}>

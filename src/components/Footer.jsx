@@ -3,15 +3,15 @@ import styles,{layout} from '../style'
 import { logo } from '../assets' // 124 32
 import { footerLinks  } from '../constants'
 import { socialMedia } from '../constants'
-
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <section className={` ${styles.flexCenter} ${styles.paddingY} flex-col md:border-b-4 md:border-indigo-500`}>
       <div className={`${styles.flexStart} flex-col md:flex-row flex-col w-full`}>
-      <div className={`flex-[1] flex flex-col justify-start mr-10`}>
+      <div className={`flex-[1] flex flex-col md:justify-start md:items-start items-center mr-10 w-full `}>
         <img src={logo} className='h-[72.14] w-[266px]  1'/>
-         <p className={` font-poppins font-semibold text-white text-[25px] leading-[30.8px] mt-7`} style={{color:'white'}}>So don't let your message get lost <br/>in the noise  <span style={{fontWeight:'bold',fontSize:'25px'}} className='text-gradient'>connect with us today.</span></p>
+         <p className={`md:block hidden font-poppins font-semibold text-white text-[25px] leading-[30.8px] mt-7`} style={{color:'white'}}>So don't let your message get lost <br/>in the noise  <span style={{fontWeight:'bold',fontSize:'25px'}} className='text-gradient'>connect with us today.</span></p>
       </div>
 
       
@@ -22,8 +22,11 @@ const Footer = () => {
           
           <ul className='list-none mt-4'>
             {footerlink.links.map((link,index) => (
+              <Link to={link.link}>
               <li key={link.name} className={`text-[16px] mt-2  text-white font-normal font-poppins leading-[24px] cursor-pointer hover:text-[19px] hover:text-bold  ${index === footerlink.links.length -1 ? "mb-4" : "mb-0"}`}>{link.name}</li>
-            ))} 
+              </Link>
+           ))} 
+
           </ul>
           
           
