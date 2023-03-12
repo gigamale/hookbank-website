@@ -38,7 +38,7 @@ export const features = [
   {
     id: "feature-3",
     icon: send,
-    title: "Positioning and branding",
+    title: "Positioning and Branding",
     content:
       "By understanding the  marketing & branding principles we position your business in the market not just by generating you more money but by also creating your Brand and building & maintaining business relationships.",
   },
